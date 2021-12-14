@@ -48,7 +48,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>belong-contacts</finalName>
+		<finalName>contacts-app</finalName>
 	</build>
 
 </project>
