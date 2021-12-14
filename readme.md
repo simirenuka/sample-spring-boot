@@ -1,6 +1,6 @@
 ## Database:
 * In-memory database used - H2
-* H2 acces - http://localhost:8081/h2-console
+* H2 access - http://localhost:8081/h2-console
 * Data loaded from /sample-spring-boot/src/main/resources/import.sql
 
 ## Executable:
