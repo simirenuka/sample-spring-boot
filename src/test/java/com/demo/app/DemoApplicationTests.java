@@ -61,12 +61,12 @@ class DemoApplicationTests {
 		Contact contact = new Contact();
 		contact.setId(11);
 		contact.setContactNumber("123456789");
-		contact.setFirstName("Simi");
-		contact.setLastName("Gopal");
+		contact.setFirstName("Rob");
+		contact.setLastName("Parker");
 		contact.setAddress(new Address());
 		contactList.add(contact);
-		when(repo.findByLastNameAndFirstNameIgnoreCase("Simi", "Gopal")).thenReturn(contactList);		
-		assertEquals("123456789", service.searchByLastNameAndFirstName("Simi", "Gopal").getBody().get(0).getContactNumber());
+		when(repo.findByLastNameAndFirstNameIgnoreCase("Rob", "Parker")).thenReturn(contactList);		
+		assertEquals("123456789", service.searchByLastNameAndFirstName("Rob", "Parker").getBody().get(0).getContactNumber());
 		
 	}
 	
@@ -75,8 +75,8 @@ class DemoApplicationTests {
 		Contact contact = new Contact();
 		contact.setId(11);
 		contact.setContactNumber("123456789");
-		contact.setFirstName("Simi");
-		contact.setLastName("Gopal");
+		contact.setFirstName("Rob");
+		contact.setLastName("Parker");
 		contact.setAddress(new Address());
 		when(repo.findByContactNumber("123456789")).thenReturn(contact);		
 		service.activateContactNumber("123456789");	
