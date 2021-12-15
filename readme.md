@@ -4,7 +4,7 @@
 * Data loaded from /sample-spring-boot/src/main/resources/import.sql
 
 ## Executable:
-* java -jar belong-contacts.jar
+* java -jar contacts-app.jar
 
 ## End point uri (examples):
 * Get all phone numbers - 			localhost:8081/demo/contacts
