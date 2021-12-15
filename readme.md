@@ -1,3 +1,6 @@
+## About
+Simple springboot app with in-memory database
+
 ## Database:
 * In-memory database used - H2
 * H2 access - http://localhost:8081/h2-console
